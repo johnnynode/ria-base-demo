@@ -4,8 +4,8 @@
 define(function(require){
     /* 引入依赖模块  */
     var $ = require('jquery');
-    var locator = require('common/locator');
-    var router = require('common/router');
+    var locator = require('./common/locator');
+    var router = require('./common/router');
     
     /* 设置路由表 */
     require('./routes');

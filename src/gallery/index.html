@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RIA SPA应用demo</title>
+  <link rel="stylesheet" href="/src/gallery/index.css">
+  <script src="http://s1.bdstatic.com/r/www/cache/ecom/esl/2-1-4/esl.js"></script>
+  <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav id="nav">
+      <a href="#/all">全部</a>
+      <a href="#/person">人物</a>
+      <a href="#/scenery">风景</a>
+      <a href="#/animal">动物</a>
+    </nav>
+    <div id="app"></div>
+</body>
+
+</html>
+<script>
+   require.config({
+     baseUrl:'/src'
+   });
+  require(['gallery/index']);
+</script>

@@ -27,7 +27,7 @@ gmail 是 RIA应用的先驱。
 
 - nodejs环境
 - 合适的编辑器
-    * auto 社区推动的，版本也比价活跃。vscode 轻量且功能强大！
+    * atom 社区推动的，版本也比价活跃。vscode 轻量且功能强大！
 - edp webserver工具包
     * npm install -g edp edp-webserver edp-project
     * 然后找个目录来触发我们的项目 mkdir ria ; cd ria ; edp project init ; ls ; 我们就可以看到我们里面的东西了。

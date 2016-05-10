@@ -25,15 +25,15 @@ gmail 是 RIA应用的先驱。
 
 ### 开发环境的搭建
 
-1. nodejs环境
-2. 合适的编辑器
+- nodejs环境
+- 合适的编辑器
     * auto 社区推动的，版本也比价活跃。vscode 轻量且功能强大！
-3. edp webserver工具包
+- edp webserver工具包
     * npm install -g edp edp-webserver edp-project
     * 然后找个目录来触发我们的项目 mkdir ria ; cd ria ; edp project init ; ls ; 我们就可以看到我们里面的东西了。
     * 调整页面结构，对功能模块进行整理
     * edp webserver 启动服务器 ，复制地址到浏览器 浏览打开src/gallery
-4. esl & jQuery的引入
+-  esl & jQuery的引入
     * esl 是一个amd的用于浏览器端的加载器
     * esl (Enterprise Standard Loader) github.com/ecomfe/esl
     * 在页面上引用esl.js 和 jquery.js

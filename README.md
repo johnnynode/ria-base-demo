@@ -1,5 +1,5 @@
 ﻿## 这是百度传课上的一起节目中的RIA技术基础整理来的Demo
-    - 具体链接：[](http://www.chuanke.com/v2889565-165995-750156.html)
+    - 具体链接：[http://www.chuanke.com/v2889565-165995-750156.html](http://www.chuanke.com/v2889565-165995-750156.html)
     - 这个demo 只是一个RIA项目的雏形，如果开发还需要进一步的规划。
 
 ### version1.0 分支 
